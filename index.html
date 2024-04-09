@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8"/>
+        <title>NaRu's site</title>
+        <!-- CSSファイルの読み込み -->
+        <link rel="stylesheet" href="_reset.css" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"/>
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- JavaScriptファイルの読み込み -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+        <script defer src="main.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="head-wrap">
+                <a class="top-link" href="/"><img src="img/NaRu_33.png" /></a>  
+            </div>
+            <nav class="nav-menu">
+                <a class="nav-link" href="#profile">Profile</a>
+                <a class="nav-link" href="#favorite">Favorite</a>
+            </nav>
+        </header>
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/2.png" /></div>
+            <div class="swiper-slide"><img src="img/3.png" /></div>
+            <div class="swiper-slide"><img src="img/4.png" /></div>
+          </div>
+          <h1 class="top-title">Let's enjoy VRChat!</h1>
+        </div>
+
+    <section class="profile" id="profile">
+      <h2 class="section-title">Profile</h2>
+      <div class="container">
+        <img class="profile-image" src="img/NaRu_33.png" alt="profile-photo" />
+        <div class="profile-text">
+          <p>こんにちは！
+            <br>NaRu_33でなると申します。
+            <br>普段学生をしながらVRChatやプログラミングをしています！</p>
+        </div>
+      </div>
+    </section>
+   
+    <section class="favorite" id="favorite">
+        <h2 class="section-title">Favorite</h2>
+        <div class="container">
+          <div class="item">
+            <h3 class="item-title">VRChat</h3>
+            <img class="item-cover" src="img/5.jpg" />
+            <p>今年の4月に始めました。
+                <br>たくさんフレンドさんができて、楽しいです。</p>
+          </div>
+          <div class="item">
+            <h3 class="item-title">Programming</h3>
+            <img class="item-cover" src="img/6.jpeg" />
+            <p>去年の夏ごろから始めました。
+                <br>基本、html,css,JavaScriptを使います。気分によってはPythonも。</p>
+          </div>
+          <div class="item">
+            <h3 class="item-title">Sleeping</h3>
+            <img class="item-cover" src="img/7.jpg" />
+            <p>いつでもどこでも寝れます。
+                <br>ぬいぐるみがあるとすごくよく寝れます。</p>
+          </div>
+        </div>
+    </section>
+  
+    <footer>&copy; 2024 NaRu_33</footer>
+    </body>
+</html>
